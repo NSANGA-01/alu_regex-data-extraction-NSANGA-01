@@ -6,7 +6,7 @@ import re
 app = Flask(__name__)
 
 #route for the home page
-@app.route('/')
+@app.route('/', methods=['GET', 'POST'])
 def index():
     
     emails = []
