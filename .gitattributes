@@ -1,0 +1,6 @@
+#changing file language
+
+* linguist-language=python
+iy
+#changing file type
+*.html linguist-documentation
