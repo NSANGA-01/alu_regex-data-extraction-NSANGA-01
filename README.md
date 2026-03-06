@@ -44,8 +44,11 @@ The main objectives of this project are:
 alu_regex-data-extraction-yourusername/
 │
 ├── app.py
+
 ├── data.txt
+
 ├── README.md
+
 └── templates/
     └── extract.html
 
@@ -100,6 +103,7 @@ The following data types are extracted using Regex:
 Examples:
 
 user@example.com
+
 firstname.lastname@company.co.uk
 
 2️⃣ URLs
@@ -107,6 +111,7 @@ firstname.lastname@company.co.uk
 Examples:
 
 https://www.example.com
+
 https://subdomain.example.org/page
 
 3️⃣ Phone Numbers
@@ -114,7 +119,9 @@ https://subdomain.example.org/page
 Examples:
 
 (123) 456-7890
+
 123-456-7890
+
 123.456.7890
 
 4️⃣ Credit Card Numbers
@@ -122,6 +129,7 @@ Examples:
 Examples:
 
 1234 5678 9012 3456
+
 1234-5678-9012-3456
 
 5️⃣ Currency Amounts
@@ -129,6 +137,7 @@ Examples:
 Examples:
 
 $19.99
+
 $1,234.56
 
 ---
@@ -156,6 +165,7 @@ python app.py
 Go to:
 
 http://127.0.0.1:5000
+
 
 Click Extract Info to see the extracted data.
 
