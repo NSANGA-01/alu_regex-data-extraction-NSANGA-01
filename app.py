@@ -17,7 +17,7 @@ def index():
 
     if request.method == "POST":
 
-        # gusoma data file
+        # reading the content of the file
         with open("data.txt", "r") as file:
             text = file.read()
 
