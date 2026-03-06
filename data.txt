@@ -1,5 +1,6 @@
-Contact us at user@example.com or firstname.lastname@company.co.uk.
+Contact us at user@example.com or Firstname.Lastname@company.co.uk.
 Visit https://www.example.com or https://subdomain.example.org/page.
 Call (123) 456-7890 or 123-456-7890.
 Credit cards: 1234 5678 9012 3456 or 1234-5678-9012-3456.
 Prices: $19.99 and $1,234.56.
+123.456.7890
