@@ -3,11 +3,13 @@
 <head>
 <title>Regex Data Extraction</title>
 
+
 <style>
 
 body{
 font-family: Arial;
 margin:40px;
+background-color: #12c195;
 }
 
 .container{
@@ -21,11 +23,18 @@ border:1px solid #ddd;
 padding:15px;
 width:220px;
 border-radius:8px;
-background:#f7f7f7;
+background:#f48787;
+overflow: auto;
 }
 
 ul{
 padding-left:20px;
+}
+
+li{
+word-wrap: break-word;
+overflow-wrap: break-word;
+word-break: break-all;
 }
 
 button{
@@ -40,13 +49,13 @@ cursor:pointer;
 
 <body>
 
-<h2>Regex Data Extraction Tool (Flask)</h2>
-
+<h2 style="color: #161717e0;">REGEX DATA EXTRACTION TOOL (python Flask)</h2>
+ 
 <form method="POST">
 
-<button type="submit">Extract Info</button>
+<button type="submit" style="background-color: #3908eb; color: white; border: true;">Extract Info</button>
 
-<button type="button" onclick="window.location.href='/'">
+<button type="button" style="background-color: #3908eb; color: white; border: true;" onclick="window.location.href='/'">
 Refresh
 </button>
 
@@ -54,13 +63,14 @@ Refresh
 
 <hr>
 
+
 <div class="container">
 
 <div class="box">
 <h3>Emails</h3>
 <ul>
 {% for email in emails %}
-<li>{{ email }}</li>
+<li>{{ email }}</li><br>
 {% endfor %}
 </ul>
 </div>
@@ -69,7 +79,7 @@ Refresh
 <h3>URLs</h3>
 <ul>
 {% for url in urls %}
-<li>{{ url }}</li>
+<li>{{ url }}</li><br>
 {% endfor %}
 </ul>
 </div>
@@ -78,7 +88,7 @@ Refresh
 <h3>Phones</h3>
 <ul>
 {% for phone in phones %}
-<li>{{ phone }}</li>
+<li>{{ phone }}</li><br>
 {% endfor %}
 </ul>
 </div>
@@ -87,7 +97,7 @@ Refresh
 <h3>Credit Cards</h3>
 <ul>
 {% for card in credit_cards %}
-<li>{{ card }}</li>
+<li>{{ card }}</li><br
 {% endfor %}
 </ul>
 </div>
@@ -96,7 +106,7 @@ Refresh
 <h3>Currency</h3>
 <ul>
 {% for money in currency %}
-<li>{{ money }}</li>
+<li>{{ money }}</li><br>
 {% endfor %}
 </ul>
 </div>
