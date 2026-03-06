@@ -42,6 +42,7 @@ The main objectives of this project are:
 📁 Project Structure
 
 alu_regex-data-extraction-yourusername/
+
 │
 ├── app.py
 
@@ -50,6 +51,7 @@ alu_regex-data-extraction-yourusername/
 ├── README.md
 
 └── templates/
+
     └── extract.html
 
 ## File Descriptions
