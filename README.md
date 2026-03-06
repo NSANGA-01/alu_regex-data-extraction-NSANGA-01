@@ -148,7 +148,7 @@ $1,234.56
 
 1. Clone the repository
 
-git clone https://github.com/yourusername/alu_regex-data-extraction-yourusername.git
+git clone https://github.com/NSANGA-01/alu_regex-data-extraction-NSANGA-01.git
 
 2. Navigate to the project folder
 
