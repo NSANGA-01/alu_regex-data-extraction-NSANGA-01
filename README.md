@@ -41,18 +41,18 @@ The main objectives of this project are:
 
 📁 Project Structure
 
-alu_regex-data-extraction-yourusername/
+alu_regex-data-extraction-NSANGA-01/
 
-│
+└── templates/
+
+    └── extract.html
+    
 ├── app.py
 
 ├── data.txt
 
 ├── README.md
 
-└── templates/
-
-    └── extract.html
 
 ## File Descriptions
 
